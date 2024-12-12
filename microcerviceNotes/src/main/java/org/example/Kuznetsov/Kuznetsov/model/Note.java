@@ -1,4 +1,4 @@
-package org.example.Kuznetsov.Kuznetsov.entity;
+package org.example.Kuznetsov.Kuznetsov.model;
 
 
 

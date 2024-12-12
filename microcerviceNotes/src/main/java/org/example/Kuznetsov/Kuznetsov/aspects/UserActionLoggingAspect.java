@@ -9,14 +9,15 @@ import java.util.Arrays;
 
 @Component
 @Aspect
-public class LoggingAspect {
+public class UserActionLoggingAspect {
+
     private static int actionCounter = 1;
 
     /**
      * Зарегистрировать и пронумеровать действия пользователя
      * @param joinPoint
      */
-    @Before("@annotation(com.example.demo.aspects.LoggedExecution)")
+    @Before("@annotation(com.github.yuliyaks.aspects.TrackUserAction)")
     public void logUserAction(JoinPoint joinPoint) {
         String methodName = joinPoint.getSignature().getName(); // Название метода, который вызывается
         String className = joinPoint.getTarget().getClass().getSimpleName(); // Название класса, метод которого вызывается

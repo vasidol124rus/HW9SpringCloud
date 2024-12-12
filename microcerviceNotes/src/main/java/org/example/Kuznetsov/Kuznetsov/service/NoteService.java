@@ -1,6 +1,6 @@
 package org.example.Kuznetsov.Kuznetsov.service;
 
-import org.example.Kuznetsov.Kuznetsov.entity.Note;
+import org.example.Kuznetsov.Kuznetsov.model.Note;
 
 import java.util.List;
 
