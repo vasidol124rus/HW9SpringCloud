@@ -1,4 +1,4 @@
-package com.example.Kuznetcov.demo;
+package com.example.Kuznetcov;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

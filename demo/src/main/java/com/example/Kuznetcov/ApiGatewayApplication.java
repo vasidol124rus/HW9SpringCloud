@@ -1,4 +1,4 @@
-package com.example.Kuznetcov.demo;
+package com.example.Kuznetcov;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
