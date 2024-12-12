@@ -1,4 +1,4 @@
-package org.example.Kuznetsov.Kuznetsov.aspects;
+package org.example.Kuznetsov.aspects;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;

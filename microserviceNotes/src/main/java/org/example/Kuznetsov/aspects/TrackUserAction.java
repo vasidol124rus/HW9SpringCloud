@@ -1,4 +1,4 @@
-package org.example.Kuznetsov.Kuznetsov.aspects;
+package org.example.Kuznetsov.aspects;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

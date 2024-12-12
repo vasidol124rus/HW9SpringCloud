@@ -1,14 +1,14 @@
-package org.example.Kuznetsov.Kuznetsov.service.impl;
+package org.example.Kuznetsov.service.impl;
 
 import lombok.RequiredArgsConstructor;
-import org.example.Kuznetsov.Kuznetsov.aspects.TrackUserAction;
-import org.example.Kuznetsov.Kuznetsov.model.Note;
-import org.example.Kuznetsov.Kuznetsov.repository.NoteRepository;
-import org.example.Kuznetsov.Kuznetsov.service.NoteService;
+import org.example.Kuznetsov.aspects.TrackUserAction;
+import org.example.Kuznetsov.model.Note;
+import org.example.Kuznetsov.repository.NoteRepository;
+import org.example.Kuznetsov.service.NoteService;
 import org.springframework.stereotype.Service;
-
 import java.time.LocalDateTime;
 import java.util.List;
+
 
 @Service
 @RequiredArgsConstructor

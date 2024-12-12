@@ -1,8 +1,8 @@
-package org.example.Kuznetsov.Kuznetsov.controller;
+package org.example.Kuznetsov.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.example.Kuznetsov.Kuznetsov.model.Note;
-import org.example.Kuznetsov.Kuznetsov.service.NoteService;
+import org.example.Kuznetsov.model.Note;
+import org.example.Kuznetsov.service.NoteService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
