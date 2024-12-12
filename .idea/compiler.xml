@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="apiGateway" />
-        <module name="demo" />
         <module name="microserviceNotes" />
+        <module name="demo" />
+        <module name="eurekaServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="apiGateway" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="eurekaServer" options="-parameters" />
       <module name="microserviceNotes" options="-parameters" />
     </option>
   </component>

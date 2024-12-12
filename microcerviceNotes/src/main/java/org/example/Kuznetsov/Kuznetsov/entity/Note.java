@@ -1,4 +1,6 @@
-package org.example.Kuznetsov.model;
+package org.example.Kuznetsov.Kuznetsov.entity;
+
+
 
 import jakarta.persistence.*;
 import lombok.Data;
